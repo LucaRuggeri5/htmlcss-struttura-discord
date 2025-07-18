@@ -9,7 +9,7 @@ body {
     font-size: 12px;
 }
 
-/* regole header */
+/* sezione header */
 .sezione-header{
     display: flex;
     flex-direction: row;
@@ -30,7 +30,7 @@ body {
     /* DEBUG */
 }
 
-/* intestazioni */
+/* intestazione */
 .logo{
     display: flex;
     justify-content: flex-start;
@@ -84,7 +84,7 @@ body {
     background-color: #EF82ED;
 }
 
-/* prima sezione main */
+/* prima sezione corpo principale */
 .sezione-un-luogo{
     display: flex;
     flex-direction: row;
@@ -95,7 +95,7 @@ body {
     background-color: #fff;
 }
 
-.container-block1{
+.container-un-luogo{
     display: flex;
     flex-direction: row;
     width: 80%;
@@ -104,23 +104,7 @@ body {
     background-color: #fff;
 }
 
-.container-text1{
-    height: 100%;
-    width: 35%;
-    /* DEBUG */
-    background-color: #FEC0CA;
-    border-style: dashed;
-}
-
-.container-img1{
-    height: 100%;
-    width: 65%;
-    /* DEBUG */
-    background-color: #1E90FF;
-    border-style: dashed;
-}
-
-/* seconda sezione */
+/* seconda sezione corpo principale */
 .sezione-dove-trovarsi{
     display: flex;
     flex-direction: row;
@@ -131,7 +115,7 @@ body {
     background-color: #D3D3D3;
 }
 
-.container-block2{
+.container-dove-trovarsi{
     display: flex;
     flex-direction: row;
     width: 80%;
@@ -140,23 +124,7 @@ body {
     background-color: #fff;
 }
 
-.container-text2{
-    height: 100%;
-    width: 35%;
-    /* DEBUG */
-    background-color: #FEC0CA;
-    border-style: dashed;
-}
-
-.container-img2{
-    height: 100%;
-    width: 65%;
-    /* DEBUG */
-    background-color: #1E90FF;
-    border-style: dashed;
-}
-
-/* terza sezione */
+/* terza sezione corpo principale */
 .sezione-da-pochi{
     display: flex;
     flex-direction: row;
@@ -167,7 +135,7 @@ body {
     background-color: #fff;
 }
 
-.container-block3{
+.container-da-pochi{
     display: flex;
     flex-direction: row;
     width: 80%;
@@ -176,7 +144,8 @@ body {
     background-color: #fff;
 }
 
-.container-text3{
+/* regole blocchi immagini e testuali */
+.container-text{
     height: 100%;
     width: 35%;
     /* DEBUG */
@@ -184,7 +153,7 @@ body {
     border-style: dashed;
 }
 
-.container-img3{
+.container-img{
     height: 100%;
     width: 65%;
     /* DEBUG */
@@ -193,7 +162,7 @@ body {
 }
 
 /* quarta sezione */
-.finale-blocco-principale{
+.sezione-tecnologia-affidabile{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,9 +171,9 @@ body {
     background-color: #D3D3D3;
 }
 
-.conainer-finale-blocco-principale{
+.container-tecnologia-affidabile{
     width: 80%;
-    height: 80%;
+    height: 90%;
         /* DEBUG */
     background-color: #218B21;
     border-style: dashed;
