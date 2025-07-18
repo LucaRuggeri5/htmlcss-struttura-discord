@@ -178,3 +178,41 @@ body {
     background-color: #218B21;
     border-style: dashed;
 }
+
+/* sezione informazioni prima del footer */
+.sezione-informazioni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    /* DEBUG */
+    background-color: #23272A;
+}
+
+.container-informazioni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 90%;
+        /* DEBUG */
+    border-style: dashed;
+}
+
+/* regole blocchi informazioni */
+.container-principale{
+    height: 100%;
+    width: 35%;
+    /* DEBUG */
+    background-color: #F08180;
+    border-style: dashed;
+}
+
+.container-informazioni-varie{
+    height: 100%;
+    width: 17.5%;
+    /* DEBUG */
+    background-color: #20B3AA;
+    border-style: dashed;
+    border-color: #fff;
+}
